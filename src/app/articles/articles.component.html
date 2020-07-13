@@ -1,0 +1,20 @@
+<div class="post-preview">
+  <div class="post-meta">
+    <a href="profile.html">
+      <img src="http://i.imgur.com/Qr71crq.jpg" />
+    </a>
+    <div class="info">
+      <a href="profile.html" class="author">{{ item.author.username }}</a>
+      <span class="date">{{ item.createdAt }}</span>
+    </div>
+    <button class="btn btn-outline-primary btn-sm pull-xs-right">
+      <i class="ion-heart"></i> {{ item.favoritesCount }}
+    </button>
+  </div>
+  <a href="post.html" class="preview-link">
+    <h1>{{ item.title }}</h1>
+    <p>
+      {{ item.body }}
+    </p>
+  </a>
+</div>
